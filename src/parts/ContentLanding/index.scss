@@ -1,0 +1,31 @@
+@import "../../assets/bootstrap/scss/bootstrap.scss";
+
+
+.meta-text{
+    position: relative;
+    .icon{
+        display: flex;
+        button{
+            
+            i{
+                font-size: 1.3rem;
+                &:hover{
+                    color: $gray-600;
+                }
+            }
+        }
+    }
+}
+.pop-up{
+    background-color: rgba(0, 0, 0, .03);
+}
+.list-group{
+    transform: scale(1.2) ;
+    &.active{
+        transform: scale(1);
+    }
+}
+
+.content-image::-webkit-scrollbar{
+    display:none ;
+}

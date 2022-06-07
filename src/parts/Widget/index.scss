@@ -1,0 +1,20 @@
+@import url('../../assets/bootstrap/scss/bootstrap.scss');
+
+.stories{
+    position: relative;
+    &::-webkit-scrollbar{
+        width: 0;
+        display: none;
+
+    }
+
+
+    .story{
+        .img-circle{
+            border: 3px solid transparent;
+            border-color: orange;
+            cursor: pointer;
+        }
+    }
+}
+
